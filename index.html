@@ -797,6 +797,7 @@
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
+
           <!-- Dinease -->
           <article class="reveal delay-100 project-card rounded-lg p-5" data-project="dinease">
             <a href="#" data-link="primary" class="flex items-center gap-4 mb-4 group app-primary-link">
@@ -857,6 +858,25 @@
             </div>
           </article>
 
+                    <!-- Vector Collab Mobile App -->
+          <article class="reveal delay-100 project-card rounded-lg p-5" data-project="vectorCollabApp">
+            <a href="#" data-link="primary" class="flex items-center gap-4 mb-4 group app-primary-link">
+              <div class="app-icon-wrap group-hover:scale-105 transition-transform">
+                <img src="Icons/VectorCollab.png" alt="Vector Collab" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center bg-purple-600 text-white font-bold\'>VC</div>';" />
+              </div>
+              <div>
+                <h4 class="font-bold group-hover:text-[#00c3ff] transition-colors">Vector Collab</h4>
+                <p class="text-gray-500 text-xs">Collaborative AI App</p>
+              </div>
+            </a>
+            <p class="text-gray-400 text-xs leading-relaxed mb-4">
+              AI collaboration workspace with real-time conversations, context-grounded retrieval, and multi-agent workflows.
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <a href="#" data-link="play" class="store-badge app-play-link">Play Store</a>
+              <a href="#" data-link="appStore" class="store-badge app-appstore-link">App Store</a>
+            </div>
+          </article>
           <!-- Beacon Eye -->
           <article class="reveal delay-400 project-card rounded-lg p-5" data-project="beaconEye">
             <a href="#" data-link="primary" class="flex items-center gap-4 mb-4 group app-primary-link">
@@ -1081,6 +1101,11 @@
         vectorCollab: {
           github: "",
           live: "https://test-rag-tawny.vercel.app/",
+        },
+        vectorCollabApp: {
+          primary: "",
+          play: "",
+          appStore: "",
         },
         dinease: {
           primary: "https://play.google.com/store/apps/details?id=com.nextgenesol.dinease&pcampaignid=web_share",
