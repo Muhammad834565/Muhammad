@@ -298,5 +298,17 @@
     "badge_color": "amber",
     "rank": 8,
     "description": "Awarded for distinguished participation and stage contribution during the college Seerat conference."
+  },
+  {
+    "id": 26,
+    "image": "asserts/certificates/images/cert_26.jpg",
+    "title": "Career Counselling Seminar Guest Speaker",
+    "organization": "Jamia Millia Govt. Degree College, Malir Karachi",
+    "date": "October 20, 2026",
+    "category": "Career Development & Public Speaking",
+    "tier": "Guest Speaker Recognition",
+    "badge_color": "emerald",
+    "rank": 6,
+    "description": "Recognized for participating as a guest speaker in a career counselling seminar."
   }
 ]
