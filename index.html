@@ -826,12 +826,41 @@
         </h2>
         <div class="w-32 md:w-48 h-1.5 accent-bg mb-4"></div>
         <p class="text-gray-400 text-sm max-w-2xl">
-          Full stack and AI platforms, plus production mobile applications built for real users.
+          AI-powered websites and apps with conversational chatbots and analytics, alongside production mobile applications built for real users.
         </p>
       </div>
 
       <!-- Featured Full Stack Projects -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 relative z-10 mb-20">
+        <!-- SMARTax Global -->
+        <article class="reveal delay-100 project-card rounded-lg p-6 md:p-8" data-project="smartax">
+          <div class="flex items-start gap-4 mb-6">
+            <div class="app-icon-wrap">
+              <img src="asserts/Icons/SmartTaxGlobal.png" alt="SMARTax Global"
+                onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center bg-emerald-600 text-white font-bold text-xl\'>ST</div>';" />
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-1">SMARTax Global</h3>
+              <p class="text-gray-500 text-xs uppercase tracking-wider">AI-Powered Finance & Tax Platform</p>
+            </div>
+          </div>
+          <p class="text-gray-400 text-sm mb-4 leading-relaxed">
+            A cross-border finance and tax platform for bookkeeping, business advisory, and US, UK, and Pakistan
+            compliance. Includes an AI chatbot for conversational assistance and AI analytics for actionable financial
+            insights.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span class="stack-tag">Next.js</span>
+            <span class="stack-tag">NestJS</span>
+            <span class="stack-tag">PostgreSQL</span>
+            <span class="stack-tag">AI Chatbot</span>
+            <span class="stack-tag">AI Analytics</span>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <a href="#" data-link="live" class="store-badge project-live-link">Live Website</a>
+          </div>
+        </article>
+
         <!-- Digi Fund Nest -->
         <article class="reveal delay-100 project-card rounded-lg p-6 md:p-8" data-project="digifund">
           <div class="flex items-start gap-4 mb-6">
@@ -2394,6 +2423,9 @@
   <script>
     // Centralized project destinations keep every card link easy to update.
     const PROJECT_LINKS = {
+      smartax: {
+        live: "https://frontend-xi-six-7ro19fc0f4.vercel.app/",
+      },
       digifund: {
         github: "https://github.com/Muhammad834565/DigiFund",
         live: ""
